@@ -24,7 +24,7 @@ These are the permissions needed:
 
 - This extension **DOES NOT** send any data to a server (everything is stored locally).
 - This extension **DOES NOT** read page content beyond the scroll position.
-- This extension **DOES NOT** track your browsing.
+- This extension **DOES NOT** track your browsing activity.
 - This extension **DOES NOT** access cookies, passwords or form data.
 
 > [!IMPORTANT]

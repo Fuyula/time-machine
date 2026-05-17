@@ -18,6 +18,13 @@ Extension to save tabs and scrolling position.
 
 ## How to run it locally
 
+### Requirements
+
+- Node.js 22 or later (LTS recommended)
+- A Chromium-based browser (Chrome, Brave, etc.) or Firefox 120+
+
+### Instructions
+
 1. Fork this repository and install its dependencies
 
    ```bash
@@ -31,7 +38,7 @@ Extension to save tabs and scrolling position.
 
 ### Chrome
 
-3. Go to `chrome://extensions/` in your Chrome browser.
+3. Go to `chrome://extensions/` in your Chrome browser (or `[browser]://extensions/` if using another Chromium-based browser).
 4. Enable the `Developer mode`.
 5. Press the `Load unpacked` button and select the `dist` folder.
 

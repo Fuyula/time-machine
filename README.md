@@ -9,6 +9,27 @@ Extension to save tabs and scrolling position.
 - **Firefox:** Internal pages (`about:, moz-extension://`) are excluded, because Firefox API doesn't allow to reopen them.
 - **Chrome:** All pages are saved.
 
+## Permissions
+
+When installing this extension, the browser will warn that it can _"read your data on all websites."_.
+
+These are the permissions needed:
+
+| Permission   | Why                                                          |
+| ------------ | ------------------------------------------------------------ |
+| `tabs`       | Read tab URLs, titles, and favicons when taking a snapshot.  |
+| `storage`    | Save encrypted snapshots locally in the browser.             |
+| `scripting`  | Inject a small script into tabs to read its scroll position. |
+| `<all_urls>` | Required to read scroll position on sites you snapshot.      |
+
+- This extension **DOES NOT** send any data to a server (everything is stored locally).
+- This extension **DOES NOT** read page content beyond the scroll position.
+- This extension **DOES NOT** track your browsing.
+- This extension **DOES NOT** access cookies, passwords or form data.
+
+> [!IMPORTANT]
+> The source code is open, feel free to check it.
+
 ## Stack
 
 - **Base:** React + Vite

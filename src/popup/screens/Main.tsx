@@ -58,7 +58,7 @@ export default function Main({ onLock }: { onLock: () => void }) {
           */}
         </div>
         <Button onClick={handleLock} size='sm' variant='destructive'>
-          <LogOut /> Log
+          <LogOut /> Log out
         </Button>
       </div>
       <h1 className=' text-lg font-black'>Tab Time Machine</h1>
